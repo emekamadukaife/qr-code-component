@@ -5,7 +5,7 @@
 :root {
   /* fonts */
   --f: 'Outfit', sans-serif;
-  --base-fs: calc(1rem + 0.5vmin);
+  --base-fs: calc(1rem + 0.4vmin);
   --base-fw: 400;
   --bold-fw: 700;
   
@@ -38,8 +38,9 @@ body {
   height: 100svh;
   background-color: var(--clr-accent);
   overflow: overlay;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
 }
 
@@ -101,7 +102,7 @@ QR component
 
 .qr__aside {
   flex:1;
-  padding: 0 1rem;
+  padding: 0 0.8rem;
 }
 
 .footer {
